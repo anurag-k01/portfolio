@@ -8,7 +8,7 @@
 }
 .iconDropdown {
   margin-top: 10px;
-color:silver;
+  color: silver;
   padding: 10px 0px 0px 10px;
 }
 .toggle {
@@ -30,4 +30,12 @@ color:silver;
 }
 .explorer {
   padding: 10px 10px 10px 10px;
+}
+.logos {
+  height: 20px;
+  
+  margin-right:6px;
+}
+.tab_inner{
+  display: flex;
 }

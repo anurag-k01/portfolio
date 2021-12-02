@@ -1,5 +1,9 @@
-.leftSideBar{
-    border:1px solid white;
-    heigth:100px;
-    width:50px;
+.leftSideBar {
+  width: 50px;
+}
+.nav_logos {
+  cursor: pointer;
+}
+.nav_logos:focus{
+    border:2px solid red;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import LeftSidebar from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
+import NavbarInner from "../Navbar/NavbarInner";
 import "./About.css";
 function About() {
   document.title = "Anurag Kumar | About";
@@ -16,6 +17,9 @@ function About() {
           <div className="sidebar_inner">
             <Sidebar />
           </div>
+        </div>
+        <div>
+        <NavbarInner />
         </div>
       </div>
     </>

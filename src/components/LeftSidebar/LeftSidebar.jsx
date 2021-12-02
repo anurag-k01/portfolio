@@ -1,28 +1,36 @@
-import  React from "react";
-import './LeftSidebar.css'
- function LeftSidebar() {
+import React from "react";
+import "./LeftSidebar.css";
+
+import { Link } from "react-router-dom";
+function LeftSidebar() {
   return (
     <div className="leftSideBar">
+      <Link to= '/'>
       <div>
-      Anurag
-        <img src="" />
+        <img src="./doc.png" className="nav_logos" />
       </div>
+      </Link>
+      <Link to='/github'>
       <div>
-        Anurag
-        <img src="" />
+        <img src="./github.png" className="nav_logos" />
       </div>
+      </Link>
+      <Link to='/skills'>
       <div>
-        <img src="" />
+        <img src="./skills.png" className="nav_logos" />
       </div>
+      </Link>
+      <Link to='/projects'>
       <div>
-        <img src="" />
+        <img src="./coder.png" className="nav_logos" />
       </div>
+      </Link>
+      <Link to='/contact'>
       <div>
-        <img src="" />
+        <img src="./mail.png" className="nav_logos" />
       </div>
+      </Link>
     </div>
   );
 }
 export default LeftSidebar;
-
-

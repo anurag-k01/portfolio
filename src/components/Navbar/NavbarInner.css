@@ -1,0 +1,20 @@
+.navbar_innerContent {
+  display: flex;
+  background-color: rgb(31, 36, 40);
+  width: 80%;
+  position: absolute;
+}
+.logo_title {
+  display: flex;
+ 
+  padding: 10px 10px 10px 10px;
+  height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.title_icon {
+  height: 18px;
+}
