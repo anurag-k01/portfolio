@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 6px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.iconDropdown {
+  margin-top: 10px;
+color:silver;
+  padding: 10px 0px 0px 10px;
+}
+.toggle {
+  display: flex;
+}
+.portfolio_title {
+  padding: 22px 2px 0px 0px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.Sidebar_main {
+  padding: 10px 10px 10px 10px;
+  height: 725px;
+  width: 210px;
+  background-color: rgb(31, 36, 40);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.explorer {
+  padding: 10px 10px 10px 10px;
+}

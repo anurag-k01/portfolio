@@ -1,0 +1,13 @@
+
+.sidebar {
+  display: flex;
+}
+.sidebar_inner {
+  background-color: rgb(31, 36, 40) !important;
+}
+.home_layout_outer {
+  display: flex;
+}
+.full_stack ::after {
+  animation: typing 1.5s steps();
+}

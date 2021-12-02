@@ -1,0 +1,14 @@
+.sections {
+  margin: 10px;
+  cursor: progress;
+}
+.Navbar {
+  display: flex;
+  background-color: rgb(31, 36, 40);
+}
+.middleTitle {
+  margin-left: 15%;
+}
+.sections :hover {
+  color: red;
+}
