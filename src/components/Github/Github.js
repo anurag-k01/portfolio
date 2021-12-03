@@ -26,7 +26,9 @@ function Github() {
             <h1 className="font-semibold">Check Out My Github</h1>
           </div>
           <div>
-            <button className="view_btn">View Profile</button>
+            <a href="https://github.com/anurag-k01">
+              <button className="view_btn">View Profile</button>
+            </a>
           </div>
         </div>
       </div>
