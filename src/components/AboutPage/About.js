@@ -19,7 +19,7 @@ function About() {
           </div>
         </div>
         <div>
-        <NavbarInner />
+          <NavbarInner />
         </div>
       </div>
     </>

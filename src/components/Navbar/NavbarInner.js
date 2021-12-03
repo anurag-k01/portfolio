@@ -37,7 +37,7 @@ function NavbarInner() {
             <div>
               <img src="./js_icon.svg" className="title_icon" />
             </div>
-            <div>projects.js</div>
+            <div >projects.js</div>
           </div>
         </Link>
         <Link to="/skills" style={{ textDecoration: "none", color: "silver" }}>
