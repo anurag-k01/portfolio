@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+.home_layout_outer {
+  display: flex;
+}
+.font-semibold {
+  font-weight: 600;
+  font-size: 1.875rem !important;
+  line-height: 2.25rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(238, 238, 238);
+}
+.layout > div {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.skills_sections {
+  display: flex;
+  margin-top: 0px !important;
+  margin-left: -20px !important;
+  font-family: "JetBrains Mono", monospace;
+  justify-content: space-evenly;
+  width: 1000px;
+}
+.Front-End {
+  margin-left: 150px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(133, 126, 226, var(--tw-text-opacity));
+}
+.Front-End h5 {
+  margin-bottom: 0px;
+}
+.Front-End > p {
+  color: rgb(238, 238, 238);
+  font-size: 1rem;
+  font-weight: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.Back-End {
+  margin-left: 150px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(133, 126, 226, var(--tw-text-opacity));
+}
+.backend_p {
+  color: rgb(238, 238, 238);
+  font-size: 1rem;
+  font-weight: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.Back-End h5 {
+  margin-bottom: 0px;
+}
+.Tools {
+    margin-left: 150px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(133, 126, 226, var(--tw-text-opacity));
+}
+.Tools > p {
+    color: rgb(238, 238, 238);
+  font-size: 1rem;
+  font-weight: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.Tools h5 {
+  margin-bottom: 0px;
+}
