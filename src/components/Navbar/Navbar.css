@@ -12,3 +12,18 @@
 .sections :hover {
   color: red;
 }
+.red {
+  background: red;
+  height: 20px;
+  width: 20px;
+}
+.yellow {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
+.green {
+  background-color: yellow;
+  height: 20px;
+  width: 20px;
+}

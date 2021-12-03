@@ -12,19 +12,19 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/github">
+          <Route exact path="/github">
             <Github />
           </Route>
-          <Route path="/skills">
+          <Route exact path="/skills">
             <Skills />
           </Route>
-          <Route path="/projects">
+          <Route exact path="/projects">
             <Project />
           </Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact />
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
           <Route path="/">

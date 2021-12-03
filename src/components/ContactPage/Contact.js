@@ -6,6 +6,7 @@ import NavbarInner from "../Navbar/NavbarInner";
 import "./Contact.css";
 function Contact() {
   document.title = "Anurag Kumar | Contact";
+  
   return (
     <>
       <Navbar />

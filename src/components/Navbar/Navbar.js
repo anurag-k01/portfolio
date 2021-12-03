@@ -15,6 +15,11 @@ function Navbar() {
           <span className="sections">Help</span>
         </div>
         <div className="middleTitle">Anurag Kumar - Visual Studio Code</div>
+        <div className="lastTitle">
+          <div className="yellow"></div>
+          <div className="green"></div>
+          <div className="red"></div>
+        </div>
       </div>
     </>
   );
