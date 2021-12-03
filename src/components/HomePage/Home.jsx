@@ -44,12 +44,11 @@ function Home() {
                 />
               </div>
               <div>
-                <button>Projects</button>
+                <button className="project_btn">Projects</button>
+                <button className="reach_btn">Reach Me</button>
               </div>
-              <div>
-                {" "}
-                <button>Reach Me</button>
-              </div>
+              
+              
             </div>
             <div className="anurag_pic_div">
               <img src="./anurag.png" className="anurag_pic" />
