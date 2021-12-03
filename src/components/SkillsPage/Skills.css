@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
-.layout {
+.layout_skills {
   display: flex;
   flex-direction: column;
 }
@@ -13,7 +13,7 @@
   font-family: "JetBrains Mono", monospace;
   color: rgb(238, 238, 238);
 }
-.layout > div {
+.layout_skills > div {
   margin-top: 50px;
   margin-left: 30px;
 }
@@ -62,7 +62,7 @@
   margin-bottom: 0px;
 }
 .Tools {
-    margin-left: 150px;
+  margin-left: 150px;
   font-size: 1.5rem;
   line-height: 1.75rem;
   text-align: center;
@@ -70,7 +70,7 @@
   color: rgba(133, 126, 226, var(--tw-text-opacity));
 }
 .Tools > p {
-    color: rgb(238, 238, 238);
+  color: rgb(238, 238, 238);
   font-size: 1rem;
   font-weight: none;
   margin-top: 2px;

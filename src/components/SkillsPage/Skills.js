@@ -21,7 +21,7 @@ function Skills() {
         <div>
           <NavbarInner />
         </div>
-        <div className="layout">
+        <div className="layout_skills">
           <div>
             <h1 className="font-semibold">My Skills</h1>
           </div>
