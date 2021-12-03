@@ -1,6 +1,66 @@
-.layout{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+
+.layout {
+  display: flex;
 }
 .home_layout_outer {
   display: flex;
+}
+.reachOut {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(238, 238, 238);
+  font-size: 1.5rem;
+}
+
+.reachOut_div {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.flex {
+  display: flex;
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 10px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-lg > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.space-y-2 {
+  margin-left: 12px;
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgba(128, 128, 128, var(--tw-text-opacity));
+}
+.items-center {
+  align-items: center;
+}
+.pl-9 {
+  padding-left: 2.25 rem;
+}
+.text-\[\#857ee2\] {
+ 
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  margin-left:20px;
+}
+.text-\[\#857ee2\] {
+  margin-bottom: 10px;
+  margin-top:20px;
+}
+.social{
+   --tw-text-opacity: 1;
+  color: rgba(133, 126, 226, var(--tw-text-opacity));
+  margin-top:-14px;
+  margin-bottom:0px;
 }
