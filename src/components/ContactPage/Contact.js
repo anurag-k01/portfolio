@@ -70,30 +70,30 @@ function Contact() {
                     </span>
                   </p>
                   <p className="text-[#857ee2]">
-                    <span className="text-white">instagram:</span>
+                    <span className="text-white">linkedin:</span>
                     <span className="text-white">
                       <a
-                        href="https://github.com/anurag-k01"
+                        href="https://www.linkedin.com/in/anurag-profile"
                         style={{
                           textDecoration: "none",
                           color: "#857EE2",
                         }}
                       >
-                        anurag-k01
+                     anurag-profile
                       </a>
                     </span>
                   </p>
                   <p className="text-[#857ee2]">
-                    <span className="text-white">instagram:</span>
+                    <span className="text-white">resume:</span>
                     <span className="text-white">
                       <a
-                        href="https://github.com/anurag-k01"
+                        href="https://drive.google.com/file/d/1gd1JljsXgZiUBMKsUtqYN8LOV7UWGc6H/view?usp=sharing"
                         style={{
                           textDecoration: "none",
                           color: "#857EE2",
                         }}
                       >
-                        anurag-k01
+                       Resume
                       </a>
                     </span>
                   </p>
