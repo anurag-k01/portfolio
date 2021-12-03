@@ -3,27 +3,83 @@
   cursor: progress;
 }
 .Navbar {
-  display: flex;
-  background-color: rgb(31, 36, 40);
+  width: 100%;
+}
+.px-3 {
+  padding-left: 0.75 rem;
+  padding-right: 0.75 rem;
+}
+.bg-\[\#1f2428\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.h-\[30px\] {
+  height: 30 px;
+}
+.sticky {
+  position: sticky;
+}
+.px-3 {
+  padding-left: 0.75 rem;
+  padding-right: 0.75 rem;
+}
+.bg-\[\#1f2428\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.h-\[30px\] {
+  height: 30 px;
+}
+.grid {
+  display: grid;
+}
+.z-50 {
+  z-index: 50;
+}
+.top-0 {
+  top: 0;
 }
 .middleTitle {
   margin-left: 15%;
 }
-.sections :hover {
-  color: red;
-}
+
 .red {
+  position: relative;
   background: red;
-  height: 20px;
-  width: 20px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .yellow {
-  background: green;
-  height: 20px;
-  width: 20px;
+  position: relative;
+  background: yellow;
+  height: 12px;
+  width: 12px;
+  margin-top: 10px;
+  border-radius: 50px;
+  cursor: pointer;
 }
 .green {
-  background-color: yellow;
-  height: 20px;
-  width: 20px;
+  margin-left: 5px;
+  position: static;
+  margin-top: 10px;
+  background-color: green;
+  height: 12px;
+  width: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.lastTitle {
+  display: flex;
+  justify-content: flex-end;
 }

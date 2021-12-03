@@ -3,8 +3,9 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="Navbar">
-        <div>
+      <div className="Navbar sticky top-0 z-50 grid grid-cols-3 bg-[#1f2428] h-[30px] px-3">
+        <div >
+          
           <span className="sections">File</span>
           <span className="sections">Edit</span>
           <span className="sections">Selection</span>
