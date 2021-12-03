@@ -4,7 +4,7 @@ import LeftSidebar from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
-
+import Typewriter from "typewriter-effect";
 function Home() {
   document.title = "Anurag Kumar | Home";
   return (
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
         <div>
-        <NavbarInner />
+          <NavbarInner />
         </div>
         <div>
           <div className="layout">
@@ -29,8 +29,19 @@ function Home() {
               <div>
                 <h2>Anurag Kumar</h2>
               </div>
-              <div>
-                <h3 className="full_stack">Full-Stack Web Developer</h3>
+              <div className="type_writer">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+
+                      .typeString("Full-stack Web Developer")
+
+                      .pauseFor(1000)
+                   
+
+                      .start();
+                  }}
+                />
               </div>
               <div>
                 <button>Projects</button>
