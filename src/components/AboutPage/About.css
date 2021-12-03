@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
 .home_layout_outer {
   display: flex;
+}
+.About_layout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.font-semibold {
+  font-weight: 600;
+  font-size: 1.875rem !important;
+  line-height: 2.25rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(238, 238, 238);
+}
+.anurag_img {
+  height: 200px;
+}
+.about_description {
+  text-align: center;
+}
+.about_description > p {
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(238, 238, 238);
+  font-size: 1.25rem;
 }
