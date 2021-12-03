@@ -49,8 +49,10 @@
   border-radius: 5px;
   background: rgb(133, 126, 226);
   margin-top: 40px;
+  cursor: pointer;  
 }
 .reach_btn {
+  cursor: pointer;
   padding: 13px 13px 13px 13px;
   font-family: "JetBrains Mono", monospace;
   font-weight: bold;

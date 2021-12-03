@@ -5,6 +5,7 @@ import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 function Home() {
   document.title = "Anurag Kumar | Home";
   return (
@@ -37,18 +38,32 @@ function Home() {
                       .typeString("Full-stack Web Developer")
 
                       .pauseFor(1000)
-                   
 
                       .start();
                   }}
                 />
               </div>
               <div>
-                <button className="project_btn">Projects</button>
-                <button className="reach_btn">Reach Me</button>
+                <Link
+                  to="/projects"
+                  style={{
+                    textDecoration: "none",
+
+                    
+                  }}
+                >
+                <button className="project_btn">Projects</button></Link>
+                <Link
+                  to="/contact"
+                  style={{
+                    textDecoration: "none",
+
+                    
+                  }}
+                >
+                  <button className="reach_btn">Reach Me</button>
+                </Link>
               </div>
-              
-              
             </div>
             <div className="anurag_pic_div">
               <img src="./anurag.png" className="anurag_pic" />
