@@ -3,7 +3,7 @@ import LeftSidebar from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
-
+import "./Github.css";
 function Github() {
   document.title = "Anurag Kumar | Github";
   return (
@@ -20,6 +20,14 @@ function Github() {
         </div>
         <div>
           <NavbarInner />
+        </div>
+        <div className="github_layout">
+          <div>
+            <h1 className="font-semibold">Check Out My Github</h1>
+          </div>
+          <div>
+            <button className="view_btn">View Profile</button>
+          </div>
         </div>
       </div>
     </div>

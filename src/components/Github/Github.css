@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+.font-semibold {
+  font-weight: 600;
+  font-size: 1.875rem !important;
+  line-height: 2.25rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(238, 238, 238);
+}
+.github_layout {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  flex-direction: column;
+}
+.view_btn {
+  padding: 13px 13px 13px 13px;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  background: rgb(133, 126, 226);
+  margin-top: 0px;
+  cursor: pointer;
+}
