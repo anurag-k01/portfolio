@@ -7,15 +7,17 @@
 .logo_title {
   display: flex;
 
-  padding: 10px 10px 10px 10px;
-  height: 20px;
-  font-size: 14px;
+  padding: 20px 20px 20px 15px;
+  height: 25px;
+  font-size: 20px;
   cursor: pointer;
   text-decoration: none;
 }
 
 .title_icon {
-  height: 18px;
+  height: 25px;
+   margin-right:15px;
+  margin-top:5px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -34,5 +36,33 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 2560px) {
+
+.navbar_innerContent {
+  display: flex;
+  background-color: rgb(31, 36, 40);
+  width: 100%;
+  position: absolute;
+}
+.logo_title {
+  display: flex;
+
+  padding: 20px 20px 20px 20px;
+  height: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.title_icon {
+  height: 30px;
+  margin-right:20px;
+  margin-top:10px;
+}
+
+
+
+
+
+
 }
