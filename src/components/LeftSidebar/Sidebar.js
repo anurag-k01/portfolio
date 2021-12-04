@@ -6,14 +6,14 @@ import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDown
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
 function Sidebar() {
   const [show, setShow] = useState(true);
-  const contents = ["home.jsx"];
+  const contents = ["home.jsx","about.html","contact.css","projects.js","skills.ts","github.md"];
   const icons = [
     "https://portfolio-ben-carter.vercel.app/_next/image?url=%2Fimages%2Freact_icon.svg&w=32&q=75",
     "https://portfolio-ben-carter.vercel.app/_next/image?url=%2Fimages%2Freact_icon.svg&w=32&q=75",
     "https://portfolio-ben-carter.vercel.app/_next/image?url=%2Fimages%2Freact_icon.svg&w=32&q=75",
     "https://portfolio-ben-carter.vercel.app/_next/image?url=%2Fimages%2Freact_icon.svg&w=32&q=75",
   ];
-  const images = ["./react_icon.svg"];
+  const images = ["./react_icon.svg","./html_icon.svg","./css.svg","./js_icon.svg","typescript.svg","markdown_icon.svg"];
 
   const toggleShow = () => {
     if (!show) {
@@ -40,10 +40,10 @@ function Sidebar() {
           </div>
           {show
             ? contents &&
-              contents.map((e, imag) => (
+              contents.map((e, ind) => (
                 <div className="tabs">
                   <div className="tab_inner">
-                  {images && images.map((image) => <div><img src={image} className="logos" /></div>)}
+                   <div><img src={images[ind]} className="logos" /></div>
                  <div>
                     {e}
                     </div>
