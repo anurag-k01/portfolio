@@ -31,11 +31,28 @@ function Project() {
                 className="projects_img"
               />
             </a>
+            <div>
+              <h1>Healthkart</h1>
+              <a href="https://healthkart--clone.herokuapp.com/users/web">
+                <button className="live_btn">Live Demo</button>
+              </a>
+<a href="https://github.com/akifpatel8/HealthKart2.0">
+              <button className="source_btn">Source Code</button></a>
+            </div>
           </div>
           <div>
             <a href="https://newegg-clone.herokuapp.com/">
               <img src="./newEgg.png" alt="newEgg" className="projects_img" />
             </a>
+            <div>
+              <h1>Newegg</h1>
+              <a href="https://newegg-clone.herokuapp.com/">
+                <button className="live_btn">Live Demo</button>
+              </a>
+              <a href="https://github.com/anurag-k01/newegg">
+                <button className="source_btn">Source Code</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
