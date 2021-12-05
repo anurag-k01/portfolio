@@ -62,7 +62,7 @@ function Sidebar() {
           {show
             ? contents &&
               contents.map((e, ind) => (
-                <div className="tabs">
+                <div className="tabs tab_inner">
                   <div className="tab_inner">
                     <div>
                       <img src={images[ind]} className="logos" />

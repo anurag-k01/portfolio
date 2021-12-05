@@ -48,21 +48,19 @@ function Home() {
                   to="/projects"
                   style={{
                     textDecoration: "none",
-
-                    
                   }}
                 >
-                <button className="project_btn">Projects</button></Link>
-                <Link
-                  to="/contact"
+                  <button className="project_btn">Projects</button>
+                </Link>
+                <a
+                  href="https://drive.google.com/file/d/1gd1JljsXgZiUBMKsUtqYN8LOV7UWGc6H/view?usp=sharing"
                   style={{
                     textDecoration: "none",
-
-                    
+                    color: "#857EE2",
                   }}
                 >
-                  <button className="reach_btn">Reach Me</button>
-                </Link>
+                  <button className="reach_btn">Resume</button>
+                </a>
               </div>
             </div>
             <div className="anurag_pic_div">
