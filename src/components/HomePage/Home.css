@@ -10,10 +10,142 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .sidebar {
+    display: flex;
+  }
+  .sidebar_inner {
+    background-color: rgb(31, 36, 40) !important;
+  }
+  .home_layout_outer {
+    display: flex;
+  }
+  .home_layout {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  .home_layout > div > h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 600px;
+
+    color: rgb(238, 238, 238);
+  }
+
+  .layout {
+    display: flex;
+  }
+  .anurag_pic {
+    height: 400px;
+  }
+  .anurag_pic_div {
+    padding-left: 100px;
+    margin-left: 10px;
+    right: 0;
+    margin-top: 150px;
+  }
+  .Typewriter__cursor {
+    color: rgb(133, 126, 226);
+    font-size: 1.5rem;
+  }
+  .Typewriter__wrapper {
+    color: rgb(238, 238, 238);
+    font-size: 2rem;
+    font-family: "JetBrains Mono", monospace;
+  }
+  .project_btn {
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    background: rgb(133, 126, 226);
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .reach_btn {
+    cursor: pointer;
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: none;
+    color: rgb(238, 238, 238);
+    margin-left: 30px;
+    border-color: rgb(133, 126, 226);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .sidebar {
+    display: flex;
+  }
+  .sidebar_inner {
+    background-color: rgb(31, 36, 40) !important;
+  }
+  .home_layout_outer {
+    display: flex;
+  }
+  .home_layout {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  .home_layout > div > h2 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 600px;
+
+    color: rgb(238, 238, 238);
+  }
+
+  .layout {
+    display: flex;
+  }
+  .anurag_pic {
+    height: 400px;
+  }
+  .anurag_pic_div {
+    padding-left: 100px;
+    margin-left: 10px;
+    right: 0;
+    margin-top: 150px;
+  }
+  .Typewriter__cursor {
+    color: rgb(133, 126, 226);
+    font-size: 1.5rem;
+  }
+  .Typewriter__wrapper {
+    color: rgb(238, 238, 238);
+    font-size: 1.5rem;
+    font-family: "JetBrains Mono", monospace;
+  }
+  .project_btn {
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    background: rgb(133, 126, 226);
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .reach_btn {
+    cursor: pointer;
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background: none;
+    color: rgb(238, 238, 238);
+    margin-left: 30px;
+    border-color: rgb(133, 126, 226);
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -116,6 +248,72 @@
   }
   .anurag_pic_div {
     margin-left: 320px;
+    margin-top: 150px;
+  }
+  .Typewriter__cursor {
+    color: rgb(133, 126, 226);
+    font-size: 1.5rem;
+  }
+  .Typewriter__wrapper {
+    color: rgb(238, 238, 238);
+    font-size: 1.5rem;
+    font-family: "JetBrains Mono", monospace;
+  }
+  .project_btn {
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    background: rgb(133, 126, 226);
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .reach_btn {
+    cursor: pointer;
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background: none;
+    color: rgb(238, 238, 238);
+    margin-left: 30px;
+    border-color: rgb(133, 126, 226);
+  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 2560px) {
+  .sidebar {
+    display: flex;
+  }
+  .sidebar_inner {
+    background-color: rgb(31, 36, 40) !important;
+  }
+  .home_layout_outer {
+    display: flex;
+  }
+  .home_layout {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  .home_layout > div > h2 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+    color: rgb(238, 238, 238);
+  }
+
+  .layout {
+    display: flex;
+  }
+  .anurag_pic {
+    height: 400px;
+  }
+  .anurag_pic_div {
+    margin-left: 600px;
     margin-top: 150px;
   }
   .Typewriter__cursor {
