@@ -12,7 +12,7 @@ const hoverTab = styled.p`
   }
 `;
 function Sidebar() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const contents = [
     "home.jsx",
     "about.html",
