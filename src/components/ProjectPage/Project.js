@@ -33,11 +33,16 @@ function Project() {
             </a>
             <div>
               <h1>Healthkart</h1>
+              <p style={{ width: "300px" }}>
+                Healthkart is a E-commerce website from where you can buy
+                products related to Fitness Stuffs.
+              </p>
               <a href="https://healthkart--clone.herokuapp.com/users/web">
                 <button className="live_btn">Live Demo</button>
               </a>
-<a href="https://github.com/akifpatel8/HealthKart2.0">
-              <button className="source_btn">Source Code</button></a>
+              <a href="https://github.com/akifpatel8/HealthKart2.0">
+                <button className="source_btn">Source Code</button>
+              </a>
             </div>
           </div>
           <div>
@@ -46,6 +51,12 @@ function Project() {
             </a>
             <div>
               <h1>Newegg</h1>
+              <p style={{ width: "300px" }}>
+                Newegg is mostly popular for buying products related to
+                computers and its parts. You will get best products related to
+                those stuffs.
+              </p>
+
               <a href="https://newegg-clone.herokuapp.com/">
                 <button className="live_btn">Live Demo</button>
               </a>
