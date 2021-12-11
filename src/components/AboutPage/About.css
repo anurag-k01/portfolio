@@ -29,22 +29,54 @@
   font-size: 1.25rem;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {} 
+@media only screen and (max-width: 600px) {
+  .home_layout_outer {
+    display: flex;
+
+    width: 1200px;
+  }
+  .About_layout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 80px;
+
+    margin: 0 auto;
+    align-items: center;
+  }
+  .font-semibold {
+    font-weight: 600;
+    font-size: 1.875rem !important;
+    line-height: 2.25rem;
+    font-family: "JetBrains Mono", monospace;
+    color: rgb(238, 238, 238);
+  }
+  .anurag_img {
+    height: 200px;
+  }
+  .about_description {
+    text-align: center;
+  }
+  .about_description > p {
+    font-family: "JetBrains Mono", monospace;
+    color: rgb(238, 238, 238);
+    font-size: 1.25rem;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {} 
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {} 
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
-
-
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}

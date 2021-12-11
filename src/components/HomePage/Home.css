@@ -2,6 +2,80 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .sidebar {
+    display: flex;
+  }
+  .sidebar_inner {
+    background-color: rgb(31, 36, 40) !important;
+  }
+  .home_layout_outer {
+    display: flex;
+  }
+  .home_layout {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .home_layout > div > h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 600px;
+
+    color: rgb(238, 238, 238);
+  }
+
+  .layout {
+    display: flex;
+    width: 400px;
+    flex-direction: column-reverse;
+  }
+  .anurag_pic {
+    height: 500px;
+  }
+  .anurag_pic_div {
+    padding-left: 10px;
+    margin-left: 100px;
+    right: 0;
+    margin-top: 150px;
+    margin-bottom: 10px;
+  }
+  .Typewriter__cursor {
+    color: rgb(133, 126, 226);
+    font-size: 5rem;
+  }
+  .Typewriter__wrapper {
+    color: rgb(238, 238, 238);
+    font-size: 2rem;
+
+    font-family: "JetBrains Mono", monospace;
+  }
+  .type_writer {
+    width: 700px;
+  }
+  .project_btn {
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    background: rgb(133, 126, 226);
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .reach_btn {
+    cursor: pointer;
+    padding: 13px 13px 13px 13px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    background: none;
+    color: rgb(238, 238, 238);
+    margin-left: 30px;
+    border-color: rgb(133, 126, 226);
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

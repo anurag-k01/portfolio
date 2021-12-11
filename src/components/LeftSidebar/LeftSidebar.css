@@ -3,12 +3,19 @@
 }
 .nav_logos {
   cursor: pointer;
-  height:50px;
+  height: 50px;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .leftSideBar {
+    width: 80px;
+    height: 1500px;
+  }
+  .nav_logos {
+    cursor: pointer;
+    height: 90px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

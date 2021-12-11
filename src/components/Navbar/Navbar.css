@@ -1,91 +1,95 @@
-.sections {
-  margin: 10px;
-  cursor: progress;
-}
-.Navbar {
-  width: 100%;
-}
-.px-3 {
-  padding-left: 0.75 rem;
-  padding-right: 0.75 rem;
-}
-.bg-\[\#1f2428\] {
-  --tw-bg-opacity: 1;
-  background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.h-\[30px\] {
-  height: 30 px;
-}
-.sticky {
-  position: sticky;
-}
-.px-3 {
-  padding-left: 0.75 rem;
-  padding-right: 0.75 rem;
-}
-.bg-\[\#1f2428\] {
-  --tw-bg-opacity: 1;
-  background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.h-\[30px\] {
-  height: 30 px;
-}
-.grid {
-  display: grid;
-}
-.z-50 {
-  z-index: 50;
-}
-.top-0 {
-  top: 0;
-}
-.middleTitle {
-  margin-left: 15%;
-}
-
-.red {
-  position: relative;
-  background: rgb(239, 68, 68);
-  height: 12px;
-  width: 12px;
-  border-radius: 50px;
-  margin-left: 8px;
-  margin-right: 20px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-.yellow {
-  position: relative;
-  background: rgb(252, 211, 77);
-  height: 12px;
-  width: 12px;
-  margin-top: 10px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-.green {
-  margin-left: 8px;
-  position: static;
-  margin-top: 10px;
-  background-color: rgb(16, 185, 129);
-  height: 12px;
-  width: 12px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-.lastTitle {
-  display: flex;
-  justify-content: flex-end;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .sections {
+    margin: 10px;
+
+    cursor: progress;
+  }
+
+  .Navbar {
+    width: 1200px;
+    font-size: 20px;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .sticky {
+    position: sticky;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .grid {
+    display: grid;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .top-0 {
+    top: 0;
+  }
+  .middleTitle {
+    margin-left: 36%;
+    width: 400px;
+    font-size: 25px !important;
+  }
+
+  .red {
+    position: relative;
+    background: rgb(239, 68, 68);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .yellow {
+    position: relative;
+    background: rgb(252, 211, 77);
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .green {
+    margin-left: 8px;
+    position: static;
+    margin-top: 10px;
+    background-color: rgb(16, 185, 129);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .lastTitle {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -94,12 +98,267 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .sections {
+    margin: 10px;
+    cursor: progress;
+  }
+  .Navbar {
+    width: 100%;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .sticky {
+    position: sticky;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .grid {
+    display: grid;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .top-0 {
+    top: 0;
+  }
+  .middleTitle {
+    margin-left: 15%;
+  }
+
+  .red {
+    position: relative;
+    background: rgb(239, 68, 68);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .yellow {
+    position: relative;
+    background: rgb(252, 211, 77);
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .green {
+    margin-left: 8px;
+    position: static;
+    margin-top: 10px;
+    background-color: rgb(16, 185, 129);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .lastTitle {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .sections {
+    margin: 10px;
+    cursor: progress;
+  }
+  .Navbar {
+    width: 100%;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .sticky {
+    position: sticky;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .grid {
+    display: grid;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .top-0 {
+    top: 0;
+  }
+  .middleTitle {
+    margin-left: 15%;
+  }
+
+  .red {
+    position: relative;
+    background: rgb(239, 68, 68);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .yellow {
+    position: relative;
+    background: rgb(252, 211, 77);
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .green {
+    margin-left: 8px;
+    position: static;
+    margin-top: 10px;
+    background-color: rgb(16, 185, 129);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .lastTitle {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .sections {
+    margin: 10px;
+    cursor: progress;
+  }
+  .Navbar {
+    width: 100%;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .sticky {
+    position: sticky;
+  }
+  .px-3 {
+    padding-left: 0.75 rem;
+    padding-right: 0.75 rem;
+  }
+  .bg-\[\#1f2428\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 36, 40, var(--tw-bg-opacity));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .h-\[30px\] {
+    height: 30 px;
+  }
+  .grid {
+    display: grid;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .top-0 {
+    top: 0;
+  }
+  .middleTitle {
+    margin-left: 15%;
+  }
+
+  .red {
+    position: relative;
+    background: rgb(239, 68, 68);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .yellow {
+    position: relative;
+    background: rgb(252, 211, 77);
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .green {
+    margin-left: 8px;
+    position: static;
+    margin-top: 10px;
+    background-color: rgb(16, 185, 129);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .lastTitle {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
