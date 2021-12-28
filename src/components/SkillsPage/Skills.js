@@ -33,14 +33,17 @@ function Skills() {
               <p>HTML 5</p>
               <p>CSS 3</p>
               <p>Javascript</p>
-
               <p>ReactJs</p>
+              <p>Redux</p>
               <p>Bootstrap</p>
+              <p>Material UI</p>
+
             </div>
             <div className="Back-End">
               <h5>Back-End</h5>
               <p className="backend_p">Node.Js</p>
               <p className="backend_p">Express</p>
+              <p className="backend_p">EJS</p>
 
               <p className="backend_p">MongoDb</p>
             </div>
