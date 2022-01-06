@@ -65,6 +65,32 @@ function Project() {
               </a>
             </div>
           </div>
+          <div style={{ display: "block" }}>
+            <div>
+              <a href="https://vrbo-clone.vercel.app/">
+                <img
+                  src="./homepage.jpg"
+                  alt="newEgg"
+                  className="projects_img"
+                />
+              </a>
+              <div>
+                <h1>Vrbo</h1>
+                <p style={{ width: "300px" }}>
+                  Vrbo is an American vacation rental online marketplace
+                  originally known as Vacation Rentals. You can book beach
+                  houses,cabin,etc.
+                </p>
+
+                <a href="https://vrbo-clone.vercel.app/">
+                  <button className="live_btn">Live Demo</button>
+                </a>
+                <a href="https://github.com/anurag-k01/project-vrbo">
+                  <button className="source_btn">Source Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

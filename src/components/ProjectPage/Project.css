@@ -1,7 +1,11 @@
 .projects_layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-gap: 20%;
   margin-top: 80px;
-  margin-left: 30px;
+}
+body {
+  overflow-y: auto;
 }
 .projects_img {
   margin-left: 20px;
