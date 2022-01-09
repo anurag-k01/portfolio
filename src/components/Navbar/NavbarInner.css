@@ -1,7 +1,7 @@
 .navbar_innerContent {
   display: flex;
   background-color: rgb(31, 36, 40);
-  width: 1238px;
+  width: 82%;
   position: absolute;
 }
 .logo_title {
@@ -24,7 +24,7 @@
   .navbar_innerContent {
     display: flex;
     background-color: rgb(31, 36, 40);
-    width: 800px;
+    width: 82%;
     position: absolute;
     overflow-x: scroll;
   }
@@ -62,7 +62,7 @@
   .navbar_innerContent {
     display: flex;
     background-color: rgb(31, 36, 40);
-    width: 100%;
+    width: 82%;
     position: absolute;
   }
   .logo_title {

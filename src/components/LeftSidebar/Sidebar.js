@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
+// import { toggle } from "./LeftSidebar";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
@@ -11,8 +12,7 @@ const hoverTab = styled.p`
     color: red;
   }
 `;
-function Sidebar({ togg }) {
-  console.log(togg);
+function Sidebar({ toggle }) {
   const [show, setShow] = useState(true);
   const contents = [
     "home.jsx",
@@ -45,10 +45,10 @@ function Sidebar({ togg }) {
     }
   };
 
-  if (togg) {
+  if (toggle) {
     return (
       <>
-        <div className="Sidebar_main">
+        <div className="Sidebar_main" >
           <div>
             <div className="explorer">EXPLORER</div>
             <div onClick={toggleShow} className="toggle">

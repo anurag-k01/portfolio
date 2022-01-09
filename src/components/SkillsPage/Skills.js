@@ -1,5 +1,5 @@
 import React from "react";
-import LeftSidebar from "../LeftSidebar/LeftSidebar";
+import { LeftSidebar } from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
@@ -37,7 +37,6 @@ function Skills() {
               <p>Redux</p>
               <p>Bootstrap</p>
               <p>Material UI</p>
-
             </div>
             <div className="Back-End">
               <h5>Back-End</h5>

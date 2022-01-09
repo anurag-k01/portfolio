@@ -1,5 +1,5 @@
 import React from "react";
-import LeftSidebar from "../LeftSidebar/LeftSidebar";
+import {LeftSidebar} from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
