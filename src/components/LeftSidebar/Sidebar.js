@@ -11,8 +11,9 @@ const hoverTab = styled.p`
     color: red;
   }
 `;
-function Sidebar() {
-  const [show, setShow] = useState(false);
+function Sidebar({ togg }) {
+  console.log(togg);
+  const [show, setShow] = useState(true);
   const contents = [
     "home.jsx",
     "about.html",
@@ -44,46 +45,47 @@ function Sidebar() {
     }
   };
 
-  return (
-    <>
-      <div className="Sidebar_main">
-        <div>
-          <div className="explorer">EXPLORER</div>
-          <div onClick={toggleShow} className="toggle">
-            <div>
-              {show ? (
-                <KeyboardArrowDownOutlinedIcon className="iconDropdown" />
-              ) : (
-                <KeyboardArrowRightOutlinedIcon className="iconDropdown" />
-              )}
+  if (togg) {
+    return (
+      <>
+        <div className="Sidebar_main">
+          <div>
+            <div className="explorer">EXPLORER</div>
+            <div onClick={toggleShow} className="toggle">
+              <div>
+                {show ? (
+                  <KeyboardArrowDownOutlinedIcon className="iconDropdown" />
+                ) : (
+                  <KeyboardArrowRightOutlinedIcon className="iconDropdown" />
+                )}
+              </div>
+              <div className="portfolio_title">PORTFOLIO</div>
             </div>
-            <div className="portfolio_title">PORTFOLIO</div>
-          </div>
-          {show
-            ? contents &&
-              contents.map((e, ind) => (
-                <div className="tabs tab_inner">
-                  <div className="tab_inner">
-                    <div>
-                      <img src={images[ind]} className="logos" />
+            {show
+              ? contents &&
+                contents.map((e, ind) => (
+                  <div className="tabs tab_inner">
+                    <div className="tab_inner">
+                      <div>
+                        <img src={images[ind]} className="logos" />
+                      </div>
+                      <Link
+                        to={links[ind]}
+                        style={{ textDecoration: "none", color: "silver" }}
+                      >
+                        <div> {e}</div>
+                      </Link>
                     </div>
-                    <Link
-                      to={links[ind]}
-                      style={{ textDecoration: "none", color: "silver" }}
-                    >
-                    <div>
-                        {" "}
-                        {e}
-                    </div>
-                    </Link>
                   </div>
-                </div>
-              ))
-            : null}
+                ))
+              : null}
+          </div>
         </div>
-      </div>
-    </>
-  );
+      </>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default Sidebar;

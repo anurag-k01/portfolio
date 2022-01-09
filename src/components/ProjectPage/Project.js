@@ -4,6 +4,7 @@ import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
 import "./Project.css";
+import styled from "styled-components";
 function Project() {
   document.title = "Anurag Kumar | Project";
   return (

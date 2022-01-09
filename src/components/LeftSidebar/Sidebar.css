@@ -1,4 +1,69 @@
-.tabs {
+
+
+@media only screen and (max-width: 600px) {
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    margin-left: 0px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  .iconDropdown {
+    margin-top: 10px;
+    color: silver;
+    padding: 10px 0px 0px 10px;
+    cursor: pointer;
+  }
+  .toggle {
+    display: flex;
+  }
+  .portfolio_title {
+    padding: 22px 2px 0px 0px;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .Sidebar_main {
+    padding: 10px 10px 10px 0px;
+    /* height: 1000px; */
+    width: 280px;
+    background-color: rgb(31, 36, 40);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .sidebar_inner {
+    overflow-y: auto; 
+    height: 2000px;
+  }
+  .tab_inner:hover {
+    background-color: rgb(36, 41, 46);
+  }
+  .explorer {
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+  }
+  .logos {
+    height: 50px;
+
+    margin-right: 6px;
+  }
+  .tab_inner {
+    display: flex;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .tabs {
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -47,71 +112,57 @@
 .tab_inner > a > div {
   margin-top: 20px;
 }
-
-@media only screen and (max-width: 600px) {
-  .tabs {
-    display: flex;
-    flex-direction: column;
-    font-size: 34px;
-    margin-left: 0px;
-    padding-left: 20px;
-    cursor: pointer;
-  }
-  .iconDropdown {
-    margin-top: 10px;
-    color: silver;
-    padding: 10px 0px 0px 10px;
-    cursor: pointer;
-  }
-  .toggle {
-    display: flex;
-  }
-  .portfolio_title {
-    padding: 22px 2px 0px 0px;
-    font-weight: bold;
-    font-size: 23px;
-  }
-  .Sidebar_main {
-    padding: 10px 10px 10px 0px;
-    height: 100vh;
-    width: 280px;
-    background-color: rgb(31, 36, 40);
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-family: "Source Sans Pro", sans-serif;
-  }
-  .sidebar_inner {
-    height: 1500px;
-  }
-  .tab_inner:hover {
-    background-color: rgb(36, 41, 46);
-  }
-  .explorer {
-    padding: 10px 10px 10px 10px;
-    font-size: 30px;
-  }
-  .logos {
-    height: 50px;
-
-    margin-right: 6px;
-  }
-  .tab_inner {
-    display: flex;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .tabs {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 0px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.iconDropdown {
+  margin-top: 10px;
+  color: silver;
+  padding: 10px 0px 0px 10px;
+  cursor: pointer;
+}
+.toggle {
+  display: flex;
+}
+.portfolio_title {
+  padding: 22px 2px 0px 0px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Sidebar_main {
+  padding: 10px 10px 10px 0px;
+  height: 100vh;
+  width: 210px;
+  background-color: rgb(31, 36, 40);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.tab_inner:hover {
+  background-color: rgb(36, 41, 46);
+}
+.explorer {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+}
+.logos {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 6px;
+}
+.tab_inner {
+  display: flex;
+}
+.tab_inner > a > div {
+  margin-top: 20px;
+}
 }
