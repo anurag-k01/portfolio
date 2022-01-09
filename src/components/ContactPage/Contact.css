@@ -2,6 +2,7 @@
 
 .layout {
   display: flex;
+  margin-top:30px;
 }
 .home_layout_outer {
   display: flex;

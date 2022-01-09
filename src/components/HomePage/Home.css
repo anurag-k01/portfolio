@@ -244,6 +244,7 @@
   }
   .home_layout_outer {
     display: flex;
+/* height:10px; */
   }
   .home_layout {
     margin-top: 200px;

@@ -1,16 +1,16 @@
 import React from "react";
-import {LeftSidebar} from "../LeftSidebar/LeftSidebar";
+import { LeftSidebar } from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
 import "./Contact.css";
 function Contact() {
   document.title = "Anurag Kumar | Contact";
-  
+
   return (
     <>
       <Navbar />
-      <div className="home_layout_outer">
+      <div style={{ display: "flex" }}>
         <div className="sidebar">
           <div>
             <LeftSidebar />
@@ -80,7 +80,7 @@ function Contact() {
                           color: "#857EE2",
                         }}
                       >
-                     anurag-profile
+                        anurag-profile
                       </a>
                     </span>
                   </p>
@@ -94,7 +94,7 @@ function Contact() {
                           color: "#857EE2",
                         }}
                       >
-                       Resume
+                        Resume
                       </a>
                     </span>
                   </p>

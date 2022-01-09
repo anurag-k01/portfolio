@@ -1,5 +1,5 @@
 import React from "react";
-import {LeftSidebar} from "../LeftSidebar/LeftSidebar";
+import { LeftSidebar } from "../LeftSidebar/LeftSidebar";
 import Sidebar from "../LeftSidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import NavbarInner from "../Navbar/NavbarInner";
@@ -8,9 +8,9 @@ import styled from "styled-components";
 function Project() {
   document.title = "Anurag Kumar | Project";
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="home_layout_outer">
+      <div style={{ display: "flex", height: "94.3vh" }}>
         <div className="sidebar">
           <div>
             <LeftSidebar />
@@ -32,7 +32,7 @@ function Project() {
                 className="projects_img"
               />
             </a>
-            <div>
+            <div style={{ paddingLeft: "30px" }}>
               <h1>Healthkart</h1>
               <p style={{ width: "300px" }}>
                 Healthkart is a E-commerce website from where you can buy
@@ -50,7 +50,7 @@ function Project() {
             <a href="https://newegg-clone.herokuapp.com/">
               <img src="./newEgg.png" alt="newEgg" className="projects_img" />
             </a>
-            <div>
+            <div style={{ paddingLeft: "30px" }}>
               <h1>Newegg</h1>
               <p style={{ width: "300px" }}>
                 Newegg is mostly popular for buying products related to
@@ -75,7 +75,7 @@ function Project() {
                   className="projects_img"
                 />
               </a>
-              <div>
+              <div style={{ paddingLeft: "30px" }}>
                 <h1>Vrbo</h1>
                 <p style={{ width: "300px" }}>
                   Vrbo is an American vacation rental online marketplace
@@ -94,7 +94,7 @@ function Project() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
